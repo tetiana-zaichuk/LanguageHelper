@@ -333,3 +333,5 @@ ASALocalRun/
 **src/environments/
 
 backend/Watcher/wwwroot/images/
+
+GoogleCredentialsSheets.json

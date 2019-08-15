@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>8fbaa005-1de5-40fd-93d7-ed8331a991ed</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,8 +10,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Apis.Sheets.v4" Version="1.40.3.1679" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LanguageHelper.BusinessLayer\LanguageHelper.BusinessLayer.csproj" />
   </ItemGroup>
 
 </Project>
