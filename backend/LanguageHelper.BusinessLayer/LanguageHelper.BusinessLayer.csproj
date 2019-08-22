@@ -8,4 +8,8 @@
     <PackageReference Include="Google.Apis.Sheets.v4" Version="1.40.3.1679" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LanguageHelper.DataAccessLayer\LanguageHelper.DataAccessLayer.csproj" />
+  </ItemGroup>
+
 </Project>
