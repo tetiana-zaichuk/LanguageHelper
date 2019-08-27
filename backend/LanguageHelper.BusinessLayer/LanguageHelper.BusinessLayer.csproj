@@ -5,11 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
     <PackageReference Include="Google.Apis.Sheets.v4" Version="1.40.3.1679" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\LanguageHelper.DataAccessLayer\LanguageHelper.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\LanguageHelper.Shared\LanguageHelper.Shared.csproj" />
   </ItemGroup>
 
 </Project>
