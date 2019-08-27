@@ -1,6 +1,6 @@
 ﻿namespace LanguageHelper.Shared.Dtos
 {
-    public class UserLanguage
+    public class UserLanguageDto
     {
         public int Id { get; set; }
         public int UserId { get; set; }
